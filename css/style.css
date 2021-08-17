@@ -1,103 +1,25 @@
-
-body {
-  font-family: "Raleway", "Open Sans";
-  color:white;
-  background-color: black;
- 
- }
- .navbar {
-  background-color: transparent !important;
-  color:white;
+*{
+  scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  background-color: #212529;
 }
 
-
-/* smooth a sroll*/
- .bg-interno{
-  background-color: #16a2b7;
-  transition: all 2s ease;
- }
-
- .h1{
-  font-family: "Raleway";
-  font-size: 400;
- }
- .container_header{
-  margin-left: 0;
-  margin-right: 0;
-} 
-
-.carousel-item {
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.section-title{
+  border-bottom: 2px solid #0DCAF0;
 }
 
-.container_h1{
-  margin-left: 0;
-  margin-right: 0;
-} 
-.hr_linea{
-  background-color: #16a2b7;
-  height:0.2em;
-
-}
-.card0
-{
-  background-color: black;
-}
-.card-body01
-{  background-color: #16a2b7;  
-  padding:0;
+@media (max-width: 992px) { 
+  .contain-nav{
+      background-color: #212529;
   }
-.fa-iconos{
-  font-size: 2em;
-  color: #fff;
-}
-.card-body02
-{  background-color: black;
-  color:white;
-  padding:0;
-  margin:0;
-  text-align:left;
 
 }
-.card-body00
-{  background-color:white;;  
-  margin-top: 1.5em;
+
+
+@media (min-width: 600px){
+  .card-img-top{
+      height: 200px;
   }
-.card-body03
-{ background-color: #16a2b7;  
-  color:white;
-  text-align:left;
-  height:17em;
-  padding: 0.em;
-  
-}
-.card-imagen{
-  height:140px;
-}
-/* footer*/
-.page-footer
-{
-  background-color: #16a2b7;
-}
-footer {
-  color:white;
-  font-weight: bold;
-  background-color: #16a2b7;
-  font-family: "Raleway";
-  font-size: 400;
-  position: absolute;
-  width: 100%;
-  padding:2px
- }
- /* Botones de redes sociales*/
-.btn{
-  width:50px;
-  color:#16a2b7;
-  margin:10px;
-  padding:10px;
-  background-color: white;
 }
